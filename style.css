@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #333;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    color: #333;
+    background: #eee;
+    border: 2px solid #000;
+    padding: 25px;
+    font-size: 28px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #ccc;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.btn-area .btn{
+    color: #333;
+    background: #eee;
+    border: 2px solid #000;
+    padding: 25px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #ccc;
+    max-width: 500px;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+    transition: .3s linear; /* Время изменения */
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-area .btn:hover {
+    background-color: #ccc;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 5px;
+}
+
+.icon.twitter {
+    background-image: url('./img/twitter.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.icon.email {
+    background-image: url('./img/email.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.icon.github {
+    background-image: url('./img/github.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.icon.instagram {
+    background-image: url('./img/instagram.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.icon.mentor {
+    background-image: url('./img/lamp.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.icon.linkedin {
+    background-image: url('./img/linkedin.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.icon.mesto {
+    background-image: url('./img/mesto.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.icon.telegram {
+    background-image: url('./img/telegram.png');
+    background-position: center;
+    background-size: contain;
+}
+
+
+ li {
+    list-style-type: none;
+}

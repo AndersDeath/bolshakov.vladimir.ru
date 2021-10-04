@@ -1,0 +1,1 @@
+It's just a page stub for bolshakov.vladimir.ru
