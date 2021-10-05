@@ -112,7 +112,39 @@ header {
     background-size: contain;
 }
 
+.icon.medium {
+    background-image: url('./img/medium.png');
+    background-position: center;
+    background-size: contain;
+}
+
+.icon.teletype {
+    background-image: url('./img/teletype.png');
+    background-position: center;
+    background-size: contain;
+}
 
  li {
     list-style-type: none;
 }
+
+@media screen and (max-width: 510px) {
+    .container {
+        justify-content: normal;
+    }
+
+    header {
+        border-radius: 0;
+    }
+    .btn-area .btn {
+        width: 60%;
+    }
+  }
+
+
+  @media screen and (max-width: 320px) {
+
+    .btn-area .btn {
+        width: 100%;
+    }
+  }
